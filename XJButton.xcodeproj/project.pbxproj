@@ -13,6 +13,7 @@
 		A1EC5ACD200F4BD2004DD419 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1EC5ACC200F4BD2004DD419 /* Assets.xcassets */; };
 		A1EC5AD0200F4BD2004DD419 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1EC5ACE200F4BD2004DD419 /* LaunchScreen.storyboard */; };
 		A1EC5AD3200F4BD2004DD419 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EC5AD2200F4BD2004DD419 /* main.m */; };
+		A1EC5ADB200F4BEF004DD419 /* XJButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EC5ADA200F4BEF004DD419 /* XJButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		A1EC5ACF200F4BD2004DD419 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A1EC5AD1200F4BD2004DD419 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A1EC5AD2200F4BD2004DD419 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A1EC5AD9200F4BEF004DD419 /* XJButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XJButton.h; sourceTree = "<group>"; };
+		A1EC5ADA200F4BEF004DD419 /* XJButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XJButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				A1EC5AC4200F4BD2004DD419 /* AppDelegate.m */,
 				A1EC5AC6200F4BD2004DD419 /* ViewController.h */,
 				A1EC5AC7200F4BD2004DD419 /* ViewController.m */,
+				A1EC5AD9200F4BEF004DD419 /* XJButton.h */,
+				A1EC5ADA200F4BEF004DD419 /* XJButton.m */,
 				A1EC5AC9200F4BD2004DD419 /* Main.storyboard */,
 				A1EC5ACC200F4BD2004DD419 /* Assets.xcassets */,
 				A1EC5ACE200F4BD2004DD419 /* LaunchScreen.storyboard */,
@@ -145,6 +150,7 @@
 				A1EC5AC8200F4BD2004DD419 /* ViewController.m in Sources */,
 				A1EC5AD3200F4BD2004DD419 /* main.m in Sources */,
 				A1EC5AC5200F4BD2004DD419 /* AppDelegate.m in Sources */,
+				A1EC5ADB200F4BEF004DD419 /* XJButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
