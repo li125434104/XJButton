@@ -60,3 +60,7 @@
     self.titleEdgeInsets = titleEdgeInsets;
 }
 ```
+
+###原理
+https://www.jianshu.com/p/0a4c94620bf5
+https://www.jianshu.com/p/0d3dbc30fad5
