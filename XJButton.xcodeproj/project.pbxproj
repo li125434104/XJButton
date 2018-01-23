@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A1176E672017196400519053 /* example.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A1176E662017196400519053 /* example.jpg */; };
+		A1176E6A20171E0300519053 /* example.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A1176E6920171E0300519053 /* example.jpg */; };
 		A1EC5AC5200F4BD2004DD419 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EC5AC4200F4BD2004DD419 /* AppDelegate.m */; };
 		A1EC5AC8200F4BD2004DD419 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EC5AC7200F4BD2004DD419 /* ViewController.m */; };
 		A1EC5ACB200F4BD2004DD419 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1EC5AC9200F4BD2004DD419 /* Main.storyboard */; };
@@ -18,7 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A1176E662017196400519053 /* example.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = example.jpg; sourceTree = "<group>"; };
+		A1176E6920171E0300519053 /* example.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = example.jpg; sourceTree = "<group>"; };
 		A1EC5AC0200F4BD2004DD419 /* XJButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XJButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1EC5AC3200F4BD2004DD419 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A1EC5AC4200F4BD2004DD419 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -44,6 +44,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A1176E6820171DBA00519053 /* pic */ = {
+			isa = PBXGroup;
+			children = (
+				A1176E6920171E0300519053 /* example.jpg */,
+			);
+			path = pic;
+			sourceTree = "<group>";
+		};
 		A1EC5AB7200F4BD2004DD419 = {
 			isa = PBXGroup;
 			children = (
@@ -63,7 +71,7 @@
 		A1EC5AC2200F4BD2004DD419 /* XJButton */ = {
 			isa = PBXGroup;
 			children = (
-				A1176E662017196400519053 /* example.jpg */,
+				A1176E6820171DBA00519053 /* pic */,
 				A1EC5AC3200F4BD2004DD419 /* AppDelegate.h */,
 				A1EC5AC4200F4BD2004DD419 /* AppDelegate.m */,
 				A1EC5AC6200F4BD2004DD419 /* ViewController.h */,
@@ -138,8 +146,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1EC5AD0200F4BD2004DD419 /* LaunchScreen.storyboard in Resources */,
-				A1176E672017196400519053 /* example.jpg in Resources */,
 				A1EC5ACD200F4BD2004DD419 /* Assets.xcassets in Resources */,
+				A1176E6A20171E0300519053 /* example.jpg in Resources */,
 				A1EC5ACB200F4BD2004DD419 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
