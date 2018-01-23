@@ -61,6 +61,10 @@
 }
 ```
 
-###原理
+### 原理
+
+下面这两篇文章介绍的很轻出，核心就是理解```UIEdgeInsetsMake()```这个函数对图片和Lable位置的影响。
+
 https://www.jianshu.com/p/0a4c94620bf5
+
 https://www.jianshu.com/p/0d3dbc30fad5
